@@ -1,0 +1,9 @@
+name: Migrate user
+description: Define a migration of users from a csv source
+core: 8.x
+version: 8.1.0
+type: module
+dependencies:
+  - migrate_source_csv
+  - migrate_plus
+  - migrate_tools
